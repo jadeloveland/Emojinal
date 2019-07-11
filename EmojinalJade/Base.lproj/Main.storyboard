@@ -55,10 +55,10 @@
                                 <state key="normal" title="🦆"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evE-Ki-X5R">
-                                <rect key="frame" x="68" y="53" width="239" height="35"/>
+                                <rect key="frame" x="90" y="53" width="195" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="APUNdent Advice">
+                                    <fragment content="Animal Advice">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="30" name="Times-Roman"/>
@@ -67,6 +67,10 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FmG-DM-4fX">
+                                <rect key="frame" x="16" y="6" width="343" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
