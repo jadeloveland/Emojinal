@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FEDADB22D7CD0400CCF96C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDADA22D7CD0400CCF96C /* AppDelegate.swift */; };
+		18FEDADD22D7CD0400CCF96C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDADC22D7CD0400CCF96C /* ViewController.swift */; };
+		18FEDAE022D7CD0400CCF96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FEDADE22D7CD0400CCF96C /* Main.storyboard */; };
+		18FEDAE322D7CD0400CCF96C /* EmojinalJade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDAE122D7CD0400CCF96C /* EmojinalJade.xcdatamodeld */; };
+		18FEDAE522D7CD0400CCF96C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FEDAE422D7CD0400CCF96C /* Assets.xcassets */; };
+		18FEDAE822D7CD0400CCF96C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FEDAE622D7CD0400CCF96C /* LaunchScreen.storyboard */; };
+		18FEDAF322D7CD0400CCF96C /* EmojinalJadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDAF222D7CD0400CCF96C /* EmojinalJadeTests.swift */; };
+		18FEDAFE22D7CD0400CCF96C /* EmojinalJadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDAFD22D7CD0400CCF96C /* EmojinalJadeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FEDAEF22D7CD0400CCF96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FEDACF22D7CD0400CCF96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FEDAD622D7CD0400CCF96C;
+			remoteInfo = EmojinalJade;
+		};
+		18FEDAFA22D7CD0400CCF96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FEDACF22D7CD0400CCF96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FEDAD622D7CD0400CCF96C;
+			remoteInfo = EmojinalJade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FEDAD722D7CD0400CCF96C /* EmojinalJade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojinalJade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FEDADA22D7CD0400CCF96C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FEDADC22D7CD0400CCF96C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FEDADF22D7CD0400CCF96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FEDAE222D7CD0400CCF96C /* EmojinalJade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmojinalJade.xcdatamodel; sourceTree = "<group>"; };
+		18FEDAE422D7CD0400CCF96C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FEDAE722D7CD0400CCF96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FEDAE922D7CD0400CCF96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FEDAEE22D7CD0400CCF96C /* EmojinalJadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojinalJadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FEDAF222D7CD0400CCF96C /* EmojinalJadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojinalJadeTests.swift; sourceTree = "<group>"; };
+		18FEDAF422D7CD0400CCF96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FEDAF922D7CD0400CCF96C /* EmojinalJadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojinalJadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FEDAFD22D7CD0400CCF96C /* EmojinalJadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojinalJadeUITests.swift; sourceTree = "<group>"; };
+		18FEDAFF22D7CD0400CCF96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FEDAD422D7CD0400CCF96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FEDAEB22D7CD0400CCF96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FEDAF622D7CD0400CCF96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FEDACE22D7CD0400CCF96C = {
+			isa = PBXGroup;
+			children = (
+				18FEDAD922D7CD0400CCF96C /* EmojinalJade */,
+				18FEDAF122D7CD0400CCF96C /* EmojinalJadeTests */,
+				18FEDAFC22D7CD0400CCF96C /* EmojinalJadeUITests */,
+				18FEDAD822D7CD0400CCF96C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FEDAD822D7CD0400CCF96C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FEDAD722D7CD0400CCF96C /* EmojinalJade.app */,
+				18FEDAEE22D7CD0400CCF96C /* EmojinalJadeTests.xctest */,
+				18FEDAF922D7CD0400CCF96C /* EmojinalJadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FEDAD922D7CD0400CCF96C /* EmojinalJade */ = {
+			isa = PBXGroup;
+			children = (
+				18FEDADA22D7CD0400CCF96C /* AppDelegate.swift */,
+				18FEDADC22D7CD0400CCF96C /* ViewController.swift */,
+				18FEDADE22D7CD0400CCF96C /* Main.storyboard */,
+				18FEDAE422D7CD0400CCF96C /* Assets.xcassets */,
+				18FEDAE622D7CD0400CCF96C /* LaunchScreen.storyboard */,
+				18FEDAE922D7CD0400CCF96C /* Info.plist */,
+				18FEDAE122D7CD0400CCF96C /* EmojinalJade.xcdatamodeld */,
+			);
+			path = EmojinalJade;
+			sourceTree = "<group>";
+		};
+		18FEDAF122D7CD0400CCF96C /* EmojinalJadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FEDAF222D7CD0400CCF96C /* EmojinalJadeTests.swift */,
+				18FEDAF422D7CD0400CCF96C /* Info.plist */,
+			);
+			path = EmojinalJadeTests;
+			sourceTree = "<group>";
+		};
+		18FEDAFC22D7CD0400CCF96C /* EmojinalJadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FEDAFD22D7CD0400CCF96C /* EmojinalJadeUITests.swift */,
+				18FEDAFF22D7CD0400CCF96C /* Info.plist */,
+			);
+			path = EmojinalJadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FEDAD622D7CD0400CCF96C /* EmojinalJade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FEDB0222D7CD0400CCF96C /* Build configuration list for PBXNativeTarget "EmojinalJade" */;
+			buildPhases = (
+				18FEDAD322D7CD0400CCF96C /* Sources */,
+				18FEDAD422D7CD0400CCF96C /* Frameworks */,
+				18FEDAD522D7CD0400CCF96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojinalJade;
+			productName = EmojinalJade;
+			productReference = 18FEDAD722D7CD0400CCF96C /* EmojinalJade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FEDAED22D7CD0400CCF96C /* EmojinalJadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FEDB0522D7CD0400CCF96C /* Build configuration list for PBXNativeTarget "EmojinalJadeTests" */;
+			buildPhases = (
+				18FEDAEA22D7CD0400CCF96C /* Sources */,
+				18FEDAEB22D7CD0400CCF96C /* Frameworks */,
+				18FEDAEC22D7CD0400CCF96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FEDAF022D7CD0400CCF96C /* PBXTargetDependency */,
+			);
+			name = EmojinalJadeTests;
+			productName = EmojinalJadeTests;
+			productReference = 18FEDAEE22D7CD0400CCF96C /* EmojinalJadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FEDAF822D7CD0400CCF96C /* EmojinalJadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FEDB0822D7CD0400CCF96C /* Build configuration list for PBXNativeTarget "EmojinalJadeUITests" */;
+			buildPhases = (
+				18FEDAF522D7CD0400CCF96C /* Sources */,
+				18FEDAF622D7CD0400CCF96C /* Frameworks */,
+				18FEDAF722D7CD0400CCF96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FEDAFB22D7CD0400CCF96C /* PBXTargetDependency */,
+			);
+			name = EmojinalJadeUITests;
+			productName = EmojinalJadeUITests;
+			productReference = 18FEDAF922D7CD0400CCF96C /* EmojinalJadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FEDACF22D7CD0400CCF96C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18FEDAD622D7CD0400CCF96C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					18FEDAED22D7CD0400CCF96C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18FEDAD622D7CD0400CCF96C;
+					};
+					18FEDAF822D7CD0400CCF96C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18FEDAD622D7CD0400CCF96C;
+					};
+				};
+			};
+			buildConfigurationList = 18FEDAD222D7CD0400CCF96C /* Build configuration list for PBXProject "EmojinalJade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FEDACE22D7CD0400CCF96C;
+			productRefGroup = 18FEDAD822D7CD0400CCF96C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FEDAD622D7CD0400CCF96C /* EmojinalJade */,
+				18FEDAED22D7CD0400CCF96C /* EmojinalJadeTests */,
+				18FEDAF822D7CD0400CCF96C /* EmojinalJadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FEDAD522D7CD0400CCF96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FEDAE822D7CD0400CCF96C /* LaunchScreen.storyboard in Resources */,
+				18FEDAE522D7CD0400CCF96C /* Assets.xcassets in Resources */,
+				18FEDAE022D7CD0400CCF96C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FEDAEC22D7CD0400CCF96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FEDAF722D7CD0400CCF96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FEDAD322D7CD0400CCF96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FEDADD22D7CD0400CCF96C /* ViewController.swift in Sources */,
+				18FEDAE322D7CD0400CCF96C /* EmojinalJade.xcdatamodeld in Sources */,
+				18FEDADB22D7CD0400CCF96C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FEDAEA22D7CD0400CCF96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FEDAF322D7CD0400CCF96C /* EmojinalJadeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FEDAF522D7CD0400CCF96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FEDAFE22D7CD0400CCF96C /* EmojinalJadeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FEDAF022D7CD0400CCF96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FEDAD622D7CD0400CCF96C /* EmojinalJade */;
+			targetProxy = 18FEDAEF22D7CD0400CCF96C /* PBXContainerItemProxy */;
+		};
+		18FEDAFB22D7CD0400CCF96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FEDAD622D7CD0400CCF96C /* EmojinalJade */;
+			targetProxy = 18FEDAFA22D7CD0400CCF96C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FEDADE22D7CD0400CCF96C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FEDADF22D7CD0400CCF96C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FEDAE622D7CD0400CCF96C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FEDAE722D7CD0400CCF96C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FEDB0022D7CD0400CCF96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FEDB0122D7CD0400CCF96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FEDB0322D7CD0400CCF96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojinalJade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jade-Loveland.EmojinalJade";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FEDB0422D7CD0400CCF96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojinalJade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jade-Loveland.EmojinalJade";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18FEDB0622D7CD0400CCF96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojinalJadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jade-Loveland.EmojinalJadeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojinalJade.app/EmojinalJade";
+			};
+			name = Debug;
+		};
+		18FEDB0722D7CD0400CCF96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojinalJadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jade-Loveland.EmojinalJadeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojinalJade.app/EmojinalJade";
+			};
+			name = Release;
+		};
+		18FEDB0922D7CD0400CCF96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojinalJadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jade-Loveland.EmojinalJadeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmojinalJade;
+			};
+			name = Debug;
+		};
+		18FEDB0A22D7CD0400CCF96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojinalJadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jade-Loveland.EmojinalJadeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmojinalJade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FEDAD222D7CD0400CCF96C /* Build configuration list for PBXProject "EmojinalJade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FEDB0022D7CD0400CCF96C /* Debug */,
+				18FEDB0122D7CD0400CCF96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FEDB0222D7CD0400CCF96C /* Build configuration list for PBXNativeTarget "EmojinalJade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FEDB0322D7CD0400CCF96C /* Debug */,
+				18FEDB0422D7CD0400CCF96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FEDB0522D7CD0400CCF96C /* Build configuration list for PBXNativeTarget "EmojinalJadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FEDB0622D7CD0400CCF96C /* Debug */,
+				18FEDB0722D7CD0400CCF96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FEDB0822D7CD0400CCF96C /* Build configuration list for PBXNativeTarget "EmojinalJadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FEDB0922D7CD0400CCF96C /* Debug */,
+				18FEDB0A22D7CD0400CCF96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18FEDAE122D7CD0400CCF96C /* EmojinalJade.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18FEDAE222D7CD0400CCF96C /* EmojinalJade.xcdatamodel */,
+			);
+			currentVersion = 18FEDAE222D7CD0400CCF96C /* EmojinalJade.xcdatamodel */;
+			path = EmojinalJade.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18FEDACF22D7CD0400CCF96C /* Project object */;
+}
