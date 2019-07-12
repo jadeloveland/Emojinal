@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class viewController: UIViewController {
 
     @IBOutlet weak var emoji1: UIButton!
     
@@ -16,7 +16,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+   
+    @IBAction func showMessage(_ sender: UIButton) {
+    }
+}
+    
+    let alertController = UIAlertController (title : "title", message : "message", preferredStyle : UIAlertController.Style.alert)
+        
+    alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:nil))
+    present(alertController, animated: true, completion: nil)
+        
+    }
 
 }
-
